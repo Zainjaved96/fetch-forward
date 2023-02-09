@@ -1,0 +1,67 @@
+/* Assigning font-family to all  */
+* {
+    font-family: 'poppins', 'sans';
+}
+
+body {
+    background-color: #262B32;
+}
+.navbar {
+    padding: 1.5rem 2rem;
+    background-color: #262B32!important;    
+}
+
+
+
+/* Nav-logo */
+.logo-name {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4C076B;
+}
+
+/* Styling Nav link */
+.nav-link {
+    color: aliceblue;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem !important;
+    font-weight: 600;
+    margin: 0rem 0.2rem;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+/* Adding hover to nav-links */
+.nav-link:hover {
+    background-color: #4C076B;
+    color: aliceblue;
+}
+
+
+/* Editing User Cards */
+
+.profile {
+    background-color: #262B32;
+    color: aliceblue;
+    border-radius: 1rem;
+}
+
+.profile-img {
+    border-radius: 50px;
+    border: solid rgb(255, 255, 255) 2px;
+}
+
+.profile-name {
+    font-size: 1.5rem;
+}
+
+.navbar-brand {
+    cursor: pointer;
+}
+
+
+/* Decreasing padding  */
+
+#user-body {
+    padding: 0.5rem;
+}
